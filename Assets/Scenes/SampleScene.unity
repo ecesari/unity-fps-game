@@ -364,7 +364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   singleFire: 0
   fireRate: 0.1
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 1048993815574394916, guid: 67bd6f1c009540141b6c8ab8e6d85102, type: 3}
   firePoint: {fileID: 1125065477}
   bulletsPerMagazine: 30
   timeToReload: 1.5
@@ -658,7 +658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   singleFire: 0
   fireRate: 0.1
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 1048993815574394916, guid: 67bd6f1c009540141b6c8ab8e6d85102, type: 3}
   firePoint: {fileID: 840440526}
   bulletsPerMagazine: 30
   timeToReload: 1.5
@@ -1261,6 +1261,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
-  primaryWeapon: {fileID: 0}
+  primaryWeapon: {fileID: 783459346}
   secondaryWeapon: {fileID: 699912511}
   selectedWeapon: {fileID: 0}
