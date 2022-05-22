@@ -369,7 +369,7 @@ MonoBehaviour:
   bulletsPerMagazine: 30
   timeToReload: 1.5
   weaponDamage: 15
-  fireAudio: {fileID: 8300000, guid: 81ac649d26a9a96419b76c635591f6d8, type: 3}
+  fireAudio: {fileID: 8300000, guid: 1b145bcffd767854fb0c71c37678ebaa, type: 3}
   reloadAudio: {fileID: 8300000, guid: e1d79f4a0c7873742babc5f6e9ff800e, type: 3}
   manager: {fileID: 0}
 --- !u!82 &699912512
@@ -660,9 +660,9 @@ MonoBehaviour:
   fireRate: 0.1
   bulletPrefab: {fileID: 1048993815574394916, guid: 67bd6f1c009540141b6c8ab8e6d85102, type: 3}
   firePoint: {fileID: 840440526}
-  bulletsPerMagazine: 30
-  timeToReload: 1.5
-  weaponDamage: 15
+  bulletsPerMagazine: 10
+  timeToReload: 2
+  weaponDamage: 20
   fireAudio: {fileID: 8300000, guid: 1df1429981f76644097c7fd47fc5f239, type: 3}
   reloadAudio: {fileID: 8300000, guid: af63539a5e39c99489395bdea2471f60, type: 3}
   manager: {fileID: 0}
@@ -1137,44 +1137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  lastSyncTime: 0
-  <netIdentity>k__BackingField: {fileID: 0}
-  <ComponentIndex>k__BackingField: 0
-  clientAuthority: 0
-  sendInterval: 0.05
-  syncPosition: 1
-  syncRotation: 1
-  syncScale: 0
-  lastClientSendTime: 0
-  lastServerSendTime: 0
-  interpolatePosition: 1
-  interpolateRotation: 1
-  interpolateScale: 0
-  bufferTimeMultiplier: 1
-  bufferSizeLimit: 64
-  catchupThreshold: 4
-  catchupMultiplier: 0.1
-  onlySyncOnChange: 1
-  bufferResetMultiplier: 5
-  positionSensitivity: 0.01
-  rotationSensitivity: 0.01
-  scaleSensitivity: 0.01
-  positionChanged: 0
-  rotationChanged: 0
-  scaleChanged: 0
-  cachedSnapshotComparison: 0
-  hasSentUnchangedPosition: 0
-  serverInterpolationTime: 0
-  clientInterpolationTime: 0
-  showGizmos: 0
-  showOverlay: 0
-  overlayColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0.5
 --- !u!114 &1297777781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,20 +1149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <isClient>k__BackingField: 0
-  <isServer>k__BackingField: 0
-  <isLocalPlayer>k__BackingField: 0
-  <hasAuthority>k__BackingField: 0
-  <netId>k__BackingField: 0
-  serverOnly: 0
-  destroyCalled: 0
-  <NetworkBehaviours>k__BackingField: []
-  visible: 0
-  m_AssetId: 
-  hasSpawned: 0
-  <SpawnedFromInstantiate>k__BackingField: 0
-  clientStarted: 0
-  hadAuthority: 0
 --- !u!136 &1297777782
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1261,6 +1209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
-  primaryWeapon: {fileID: 783459346}
-  secondaryWeapon: {fileID: 699912511}
+  primaryWeapon: {fileID: 699912511}
+  secondaryWeapon: {fileID: 783459346}
   selectedWeapon: {fileID: 0}
