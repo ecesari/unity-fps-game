@@ -1461,7 +1461,7 @@ MonoBehaviour:
   firePoint: {fileID: 840440526}
   bulletsPerMagazine: 10
   timeToReload: 2
-  weaponDamage: 20
+  weaponDamage: 30
   fireAudio: {fileID: 8300000, guid: 1df1429981f76644097c7fd47fc5f239, type: 3}
   reloadAudio: {fileID: 8300000, guid: af63539a5e39c99489395bdea2471f60, type: 3}
   manager: {fileID: 0}
